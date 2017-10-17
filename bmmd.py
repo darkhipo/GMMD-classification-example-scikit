@@ -49,7 +49,11 @@ I am cheating, this is true, fixing this I leave to you!
 predict_list = list(dpgmm.predict(X))
 uniques      = sorted(set(predict_list))
 result_map   = {k : predict_list[i] for (k,i) in zip(row_order, range(len(row_order)))} 
+##Predict class from the input data. 
 
+##Output
 print('I found {} labels for {} rows, they are: {}'.format(len(uniques), len(rows), uniques)) 
 pprint.pprint(result_map)
+##Output
+
 sys.exit(0)
