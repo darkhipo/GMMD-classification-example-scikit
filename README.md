@@ -24,7 +24,7 @@ mkdir ~/GMMD ;
 cd ~/GMMD ;
 git clone https://github.com/darkhipo/GMMD-classification-example-scikit ;
 cd GMMD-classification-example-scikit ;
-pip install requirements.txt ;
+pip install -r requirements.txt ;
 ```
 
 ## Execution
